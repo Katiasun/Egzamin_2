@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "mappings": "ACEA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,KAAK;CAClB;;AACD,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,SAAS;CACnB;;AACD,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,KAAK;CACf;;AAED,AAAA,IAAI,CAAC,EAAE,CAAC;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;CACjB;;AACD,AAAA,IAAI,CAAC,CAAC,CAAC;EACL,WAAW,EAAE,uBAAuB;EACpC,KAAK,EAAE,GAAG;EACV,eAAe,EAAE,IAAI;CACtB;;ADbD,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/blocks/_headerSlider_1.scss",
+        "../scss/blocks/_slider2.scss",
+        "../scss/blocks/_slider_3.scss",
+        "../scss/blocks/_slider_4.scss",
+        "../scss/blocks/_whatWeDo.scss",
+        "../scss/blocks/_latestNews.scss",
+        "../scss/blocks/_galerry.scss",
+        "../scss/blocks/_getInTouch.scss",
+        "../scss/blocks/_map.scss",
+        "../scss/blocks/_footer.scss",
+        "../scss/blocks/_button.scss",
+        "../scss/blocks/_colors.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

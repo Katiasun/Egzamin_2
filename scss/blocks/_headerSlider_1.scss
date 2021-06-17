@@ -1,0 +1,46 @@
+.wrapper {
+}
+.header {
+  background: black;
+}
+.bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 400;
+  padding: 61px 40px;
+}
+.logo {
+  display: block;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav a {
+  font-family: "Open Sans", sans-serif;
+  color: $white;
+  text-decoration: none;
+}
+.social-links {
+}
+.social-link {
+}
+.sliders {
+}
+.slide {
+}
+.slider-1 {
+}
+.slide-content {
+}
+.slider-2 {
+}
+.slider-3 {
+}
+.slider-4 {
+}
