@@ -1,0 +1,40 @@
+.gallery {
+  text-align: center;
+
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.gallery hr {
+  border: 1px solid #2c4058;
+}
+.gallery h1 {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.photos {
+  margin-bottom: 60px;
+}
+.row {
+}
+.col-6 {
+}
+.col-3 {
+}
+.button-gallery {
+  background: $white;
+  cursor: pointer;
+  border: 1px solid #2c4058;
+  padding: 20px 41px;
+  font-family: "Gotham", sans-serif;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}

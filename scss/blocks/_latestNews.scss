@@ -1,0 +1,75 @@
+.latest-news {
+  background: url("../img/latestNews.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 144px;
+}
+.latest-news hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 28px;
+}
+.latest-news h1 {
+  color: $white;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.content-card {
+  background: $white;
+  cursor: pointer;
+}
+.card-title {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.card-subtitle {
+  color: $grey;
+  font-family: "Gotham", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  margin-left: 20px;
+}
+.author {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+.author h4 {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.author p {
+  color: $blue;
+  font-family: "Gotham", sans-serif;
+  font-size: 14px;
+  line-height: 13px;
+}
+.card-1 {
+}
+.card-2 {
+}
+.card-3 {
+}

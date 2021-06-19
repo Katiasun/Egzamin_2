@@ -1,0 +1,104 @@
+.what-we-do {
+  background: $white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+hr {
+  position: relative;
+  border: 1px solid #2c4058;
+  width: 153px;
+  margin-bottom: 28px;
+  margin-left: 590px;
+}
+.what-we-do h1 {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-transform: uppercase;
+
+  margin-bottom: 100px;
+}
+.content-block-1,
+.content-block-2 {
+  position: relative;
+  display: flex;
+}
+
+.shar {
+  z-index: 20;
+  //   margin-top: -70px;
+  margin-left: 215px;
+}
+
+.blue-block1 {
+  position: absolute;
+  width: 585px;
+  height: 470px;
+  left: 0px;
+  top: -65px;
+
+  background: #55b7ff;
+}
+.text-content-1 {
+  font-family: "Gotham", sans-serif;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.subtitle {
+  color: $black;
+  font-size: 22px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.title {
+  color: $black;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.text-body {
+  color: $grey;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.button {
+  color: $black;
+  background: $white;
+  font-family: "Gotham", sans-serif;
+  border: 1px solid #2c4058;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 44px;
+  padding: 20px 41px;
+  cursor: pointer;
+}
+.content-block-2 {
+  margin-top: 140px;
+  margin-left: 215px;
+}
+.text-content-2 {
+  margin-right: 40px;
+}
+.blue-block2 {
+  position: absolute;
+  width: 585px;
+  height: 470px;
+  left: 1015px;
+  top: -65px;
+  background: #7e5aff;
+}
+.build {
+  z-index: 20;
+}
