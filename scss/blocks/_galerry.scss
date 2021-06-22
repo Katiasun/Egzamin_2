@@ -6,6 +6,9 @@
 }
 .gallery hr {
   border: 1px solid #2c4058;
+  background-color: $black;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 .gallery h1 {
   color: $black;
@@ -18,15 +21,15 @@
   text-transform: uppercase;
   margin-bottom: 100px;
 }
-.photos {
+.container {
   margin-bottom: 60px;
 }
-.row {
+.container img {
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
-.col-6 {
-}
-.col-3 {
-}
+
 .button-gallery {
   background: $white;
   cursor: pointer;
@@ -37,4 +40,9 @@
   line-height: 13px;
   text-align: center;
   text-transform: uppercase;
+  transition: background 1s;
+}
+.button-gallery:hover {
+  transition-timing-function: ease-out;
+  background-color: $blue;
 }

@@ -2,13 +2,16 @@
   background: $white;
   padding-top: 100px;
   padding-bottom: 100px;
+  overflow: hidden;
+  text-align: center;
 }
 hr {
   position: relative;
   border: 1px solid #2c4058;
+  background-color: $black;
   width: 153px;
+  margin: 0 auto;
   margin-bottom: 28px;
-  margin-left: 590px;
 }
 .what-we-do h1 {
   color: $black;
@@ -47,6 +50,8 @@ hr {
   text-align: left;
   margin-top: 50px;
   margin-left: 40px;
+  display: flex;
+  flex-direction: column;
 }
 .subtitle {
   color: $black;
@@ -79,17 +84,25 @@ hr {
   line-height: 13px;
   text-align: center;
   text-transform: uppercase;
-
+  width: 190px;
   margin-bottom: 44px;
   padding: 20px 41px;
   cursor: pointer;
+  transition: background 1s;
 }
+.button:hover {
+  transition-timing-function: ease-out;
+  background-color: $blue;
+}
+
 .content-block-2 {
   margin-top: 140px;
   margin-left: 215px;
 }
 .text-content-2 {
   margin-right: 40px;
+  display: flex;
+  flex-direction: column;
 }
 .blue-block2 {
   position: absolute;

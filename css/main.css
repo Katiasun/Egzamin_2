@@ -14,7 +14,7 @@
   left: 0;
   right: 0;
   z-index: 400;
-  padding: 41px 40px;
+  padding: 41px 215px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -26,8 +26,6 @@
 
 .logo {
   display: block;
-  margin-top: 41px;
-  margin-left: 215px;
 }
 
 .nav {
@@ -39,6 +37,15 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+}
+
+.nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav li:not(:last-child) {
@@ -85,7 +92,7 @@
   line-height: 96px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 262px;
+  margin-top: 262px;
   margin-bottom: 16px;
 }
 
@@ -97,7 +104,7 @@
   text-align: center;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  margin-bottom: 235px;
+  margin-bottom: 268px;
 }
 
 .slide-content {
@@ -161,14 +168,17 @@
   background: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
+  overflow: hidden;
+  text-align: center;
 }
 
 hr {
   position: relative;
   border: 1px solid #2c4058;
+  background-color: #2c4058;
   width: 153px;
+  margin: 0 auto;
   margin-bottom: 28px;
-  margin-left: 590px;
 }
 
 .what-we-do h1 {
@@ -209,6 +219,13 @@ hr {
   text-align: left;
   margin-top: 50px;
   margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .subtitle {
@@ -246,9 +263,18 @@ hr {
   line-height: 13px;
   text-align: center;
   text-transform: uppercase;
+  width: 190px;
   margin-bottom: 44px;
   padding: 20px 41px;
   cursor: pointer;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+.button:hover {
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  background-color: #55b7ff;
 }
 
 .content-block-2 {
@@ -258,6 +284,13 @@ hr {
 
 .text-content-2 {
   margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .blue-block2 {
@@ -282,6 +315,8 @@ hr {
 
 .latest-news hr {
   border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 0 auto;
   margin-bottom: 28px;
 }
 
@@ -366,6 +401,9 @@ hr {
 
 .gallery hr {
   border: 1px solid #2c4058;
+  background-color: #2c4058;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 
 .gallery h1 {
@@ -379,8 +417,16 @@ hr {
   margin-bottom: 100px;
 }
 
-.photos {
+.container {
   margin-bottom: 60px;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .button-gallery {
@@ -393,6 +439,27 @@ hr {
   line-height: 13px;
   text-align: center;
   text-transform: uppercase;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+.button-gallery:hover {
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  background-color: #55b7ff;
+}
+
+.footer {
+  text-align: center;
+  background: linear-gradient(63.43deg, rgba(85, 183, 255, 0.94) 14.81%, rgba(125, 89, 255, 0.94) 81.48%), url("../img/BG_SLEDR_3.png") center center no-repeat;
+  background-size: cover;
+}
+
+.get-in-touch hr {
+  border: 1px solid #2c4058;
+  background-color: #2c4058;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 
 * {

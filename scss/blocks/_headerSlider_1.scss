@@ -11,7 +11,7 @@
   left: 0;
   right: 0;
   z-index: 400;
-  padding: 41px 40px;
+  padding: 41px 215px;
   align-items: center;
 }
 .all-links {
@@ -19,8 +19,6 @@
 }
 .logo {
   display: block;
-  margin-top: 41px;
-  margin-left: 215px;
 }
 .nav {
   position: relative;
@@ -28,6 +26,10 @@
 .nav ul {
   display: flex;
   list-style: none;
+}
+.nav li {
+  display: flex;
+  align-items: center;
 }
 .nav li:not(:last-child) {
   margin-right: 70px;
@@ -74,8 +76,7 @@
   line-height: 96px;
   text-align: center;
   text-transform: uppercase;
-
-  margin-bottom: 262px;
+  margin-top: 262px;
   margin-bottom: 16px;
 }
 .lead {
@@ -86,7 +87,8 @@
   text-align: center;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  margin-bottom: 235px;
+
+  margin-bottom: 268px;
 }
 
 .slide-content {
