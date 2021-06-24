@@ -7,16 +7,22 @@
     ),
     url("../img/BG_SLEDR_3.png") center center no-repeat;
   background-size: cover;
+
+  padding-top: 201px;
+  padding-bottom: 207px;
 }
-.footer {
-}
+
 .get-in-touch {
   background: $white;
+  width: 770px;
   box-shadow: 0px -4px 15px rgba(133, 133, 133, 0.2);
   padding-top: 56px;
   padding-bottom: 80px;
   padding-left: 63px;
   padding-right: 60px;
+  margin: 0 auto;
+
+  z-index: 8;
 }
 .get-in-touch hr {
   border: 1px solid #2c4058;
@@ -25,6 +31,7 @@
   margin-bottom: 28px;
 }
 .get-in-touch h1 {
+  color: $black;
   font-family: "Gotham", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -32,8 +39,6 @@
   line-height: 53px;
   text-align: center;
   text-transform: uppercase;
-
-  color: $black;
 }
 .form {
 }
@@ -42,8 +47,21 @@
 .your-information {
 }
 .footer-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
 }
 .footer-logo {
+  text-align: left;
+}
+.footer-logo img {
+  margin-bottom: 40px;
+}
+.footer-logo p {
+  color: $white;
+  font-size: 14px;
+  line-height: 18px;
 }
 .footer-links {
+  cursor: pointer;
 }
