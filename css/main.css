@@ -486,13 +486,90 @@ hr {
   line-height: 53px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 51px;
+}
+
+.form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[2];
+      grid-template-columns: repeat(2, 300px);
+  -ms-grid-rows: (auto)[1];
+      grid-template-rows: repeat(1, auto);
+  grid-column-gap: 50px;
+}
+
+.firm-information {
+  color: #2c4058;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (40px)[4];
+      grid-template-rows: repeat(4, 40px);
+  grid-row-gap: 29px;
+  text-align: left;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.firm-information label img {
+  margin-right: 14px;
+}
+
+.your-information {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 30px;
+}
+
+.your-information input {
+  color: #4b5562;
+  border: none;
+  outline: 1px solid transparent;
+  text-align: left;
+  border-bottom: 1px solid #4b5562;
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 0.5;
+  padding: 16px 0;
+  outline: none;
+}
+
+.your-information input:focus {
+  color: #2c4058;
+  border-bottom: 1px solid #2c4058;
+}
+
+.buttom-form {
+  background: #ffffff;
+  width: 140px;
+  margin-top: 28px;
+  cursor: pointer;
+  border: 1px solid #2c4058;
+  padding: 20px 41px;
+  font-family: "Gotham", sans-serif;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+.buttom-form:hover {
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  background-color: #55b7ff;
 }
 
 .footer-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
   justify-items: center;
 }
 
