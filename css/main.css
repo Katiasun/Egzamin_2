@@ -557,6 +557,7 @@ hr {
   text-transform: uppercase;
   -webkit-transition: background 1s;
   transition: background 1s;
+  margin-left: 160px;
 }
 
 .buttom-form:hover {

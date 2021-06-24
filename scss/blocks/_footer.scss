@@ -61,8 +61,10 @@
 .firm-information label img {
   margin-right: 14px;
 }
+
 .your-information {
   display: grid;
+
   grid-row-gap: 30px;
 }
 .your-information input {
@@ -98,6 +100,7 @@
   text-transform: uppercase;
 
   transition: background 1s;
+  margin-left: 160px;
 }
 .buttom-form:hover {
   transition-timing-function: ease-out;
