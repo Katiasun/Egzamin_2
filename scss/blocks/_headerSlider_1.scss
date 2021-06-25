@@ -1,5 +1,3 @@
-.wrapper {
-}
 .header {
   background: transparent;
 }
@@ -60,11 +58,39 @@
 .social-links a:not(:last-child) {
   margin-right: 20px;
 }
-.social-links {
-}
-.social-link {
-}
 .sliders {
+  position: relative;
+
+  .slick-arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 700;
+    font-size: 0;
+    border: 0;
+    background: url("../img/ArrowDown.png");
+  }
+  .slick-next {
+    bottom: 60px;
+  }
+  .slick-prev {
+  }
+
+  .sliders .slick-dots {
+    position: absolute;
+
+    & button {
+      background: none;
+      border: none;
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #fff;
+      background: transparent;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+    }
+  }
 }
 .slide {
 }
@@ -134,22 +160,26 @@
     url("../img/BG_SLEDR_4.png") center center no-repeat;
   background-size: cover;
 }
-.slick-arrow {
-  position: absolute;
-  z-index: 700;
-  font-style: 0;
-  border: 0;
-  background: url("../img/ArrowDown.png");
-}
-.slick-next {
-}
-.slick-dots {
-  font-size: 0;
-  width: 10px;
-  height: 10px;
-  border: 1px solid $white;
-  background: transparent;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease-in;
-}
+// .slick-arrow {
+//   position: absolute;
+//   transform: translateY(-50%);
+//   z-index: 700;
+//   font-size: 0;
+//   border: 0;
+//   background: url("../img/ArrowDown.png");
+// }
+// .slick-next {
+//   bottom: 60px;
+// }
+// .slick-prev {
+// }
+// .slick-dots {
+//   font-size: 0;
+//   width: 10px;
+//   height: 10px;
+//   border: 1px solid #fff;
+//   background: transparent;
+//   border-radius: 50%;
+//   cursor: pointer;
+//   transition: all 0.3s ease-in;
+// }
