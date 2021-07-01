@@ -72,8 +72,6 @@
   .slick-next {
     bottom: 60px;
   }
-  .slick-prev {
-  }
 
   .sliders .slick-dots {
     position: absolute;
@@ -91,8 +89,6 @@
       transition: all 0.3s ease-in;
     }
   }
-}
-.slide {
 }
 .slogan {
   color: $white;
@@ -171,8 +167,7 @@
 .slick-next {
   bottom: 60px;
 }
-.slick-prev {
-}
+
 .header {
   .slick-dots button {
     position: relative;

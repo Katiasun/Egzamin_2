@@ -108,11 +108,16 @@
 }
 
 .footer-content {
-  display: flex;
-
-  justify-items: center;
+  display: grid;
+  margin-left: 415px;
+  grid-template-columns: 428px 160px;
+  grid-column-gap: 182px;
+  margin-top: 50px;
+  // justify-items: center;
 }
 .footer-logo {
+  display: grid;
+  grid-row-gap: 40px;
   text-align: left;
 }
 
@@ -123,5 +128,7 @@
 }
 .footer-links {
   cursor: pointer;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-column-gap: 20px;
 }

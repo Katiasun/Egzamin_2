@@ -617,13 +617,19 @@ hr {
 }
 
 .footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: center;
+  display: -ms-grid;
+  display: grid;
+  margin-left: 415px;
+  -ms-grid-columns: 428px 160px;
+      grid-template-columns: 428px 160px;
+  grid-column-gap: 182px;
+  margin-top: 50px;
 }
 
 .footer-logo {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 40px;
   text-align: left;
 }
 
@@ -635,9 +641,11 @@ hr {
 
 .footer-links {
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (40px)[3];
+      grid-template-columns: repeat(3, 40px);
+  grid-column-gap: 20px;
 }
 
 * {
