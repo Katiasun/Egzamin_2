@@ -2,7 +2,10 @@ $(".sliders").slick({
   dots: true,
   Infinity: true,
   fade: true,
-  speed: 300,
+  speed: 500,
+  adaptiveHeight: true,
+  easing: "ease-out",
+  verticalSwiping: true,
 });
 
 $(document).ready(function () {
