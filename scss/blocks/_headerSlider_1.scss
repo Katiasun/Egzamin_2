@@ -58,38 +58,6 @@
 .social-links a:not(:last-child) {
   margin-right: 20px;
 }
-.sliders {
-  position: relative;
-
-  .slick-arrow {
-    position: absolute;
-    transform: translateY(-50%);
-    z-index: 700;
-    font-size: 0;
-    border: 0;
-    background: url("../img/ArrowDown.png");
-  }
-  .slick-next {
-    bottom: 60px;
-  }
-
-  .sliders .slick-dots {
-    position: absolute;
-
-    & button {
-      background: none;
-      border: none;
-      font-size: 0;
-      width: 10px;
-      height: 10px;
-      border: 1px solid #fff;
-      background: transparent;
-      border-radius: 50%;
-      cursor: pointer;
-      transition: all 0.3s ease-in;
-    }
-  }
-}
 .slogan {
   color: $white;
   font-family: "Gotham", sans-serif;
@@ -120,6 +88,8 @@
   align-items: center;
   justify-content: center;
 }
+
+// BACKGROUND
 .slider-1 {
   background: linear-gradient(
       63.43deg,
@@ -156,19 +126,12 @@
     url("../img/BG_SLEDR_4.png") center center no-repeat;
   background-size: cover;
 }
-.slick-arrow {
-  position: absolute;
-  transform: translateY(-50%);
-  z-index: 700;
-  font-size: 0;
-  border: 0;
-  background: url("../img/ArrowDown.png");
-}
-.slick-next {
-  bottom: 60px;
-}
 
-.header {
+// SLIDER AND ARROWS
+
+.sliders {
+  position: relative;
+
   .slick-dots button {
     position: relative;
     bottom: 320px;

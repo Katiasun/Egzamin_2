@@ -84,42 +84,6 @@
   margin-right: 20px;
 }
 
-.sliders {
-  position: relative;
-}
-
-.sliders .slick-arrow {
-  position: absolute;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 700;
-  font-size: 0;
-  border: 0;
-  background: url("../img/ArrowDown.png");
-}
-
-.sliders .slick-next {
-  bottom: 60px;
-}
-
-.sliders .sliders .slick-dots {
-  position: absolute;
-}
-
-.sliders .sliders .slick-dots button {
-  background: none;
-  border: none;
-  font-size: 0;
-  width: 10px;
-  height: 10px;
-  border: 1px solid #fff;
-  background: transparent;
-  border-radius: 50%;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
 .slogan {
   color: #ffffff;
   font-family: "Gotham", sans-serif;
@@ -180,21 +144,11 @@
   background-size: cover;
 }
 
-.slick-arrow {
-  position: absolute;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 700;
-  font-size: 0;
-  border: 0;
-  background: url("../img/ArrowDown.png");
+.sliders {
+  position: relative;
 }
 
-.slick-next {
-  bottom: 60px;
-}
-
-.header .slick-dots button {
+.sliders .slick-dots button {
   position: relative;
   bottom: 320px;
   margin-bottom: 40px;
@@ -210,7 +164,7 @@
   transition: all 0.3s ease-in;
 }
 
-.header .slick-dots button:hover {
+.sliders .slick-dots button:hover {
   background: #ffffff;
 }
 
@@ -395,6 +349,10 @@ hr {
   cursor: pointer;
 }
 
+.content-card:not(:last-child) {
+  margin-right: 30px;
+}
+
 .thumbnail.caption {
   width: 100%;
   height: 100%;
@@ -428,8 +386,6 @@ hr {
   font-size: 22px;
   line-height: 34px;
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 
 .card-subtitle {
@@ -438,21 +394,28 @@ hr {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 32px;
-  margin-left: 20px;
 }
 
-.author {
+.info-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  margin: 20px 0px 32px 25px;
+}
+
+.name {
+  margin-left: 21px;
+}
+
+.author-info {
+  margin-top: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-bottom: 20px;
-  padding-right: 50px;
 }
 
-.author h4 {
+.author-info h4 {
   color: #2c4058;
   font-family: "Gotham", sans-serif;
   font-size: 18px;
@@ -461,11 +424,88 @@ hr {
   margin-bottom: 8px;
 }
 
-.author p {
+.author-info p {
   color: #55b7ff;
   font-family: "Gotham", sans-serif;
   font-size: 14px;
   line-height: 13px;
+}
+
+.cards {
+  position: relative;
+  padding: 0 115px;
+}
+
+.cards .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.cards .slick-list {
+  overflow: hidden;
+}
+
+.cards .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.cards .slick-prev {
+  left: 0;
+  margin-left: 25px;
+  background: url("../img/Direction=Left.png") 0 0/100% no-repeat;
+}
+
+.cards .slick-next {
+  right: 0;
+  margin-right: 25px;
+  background: url("../../img/ArrowRight.png") 0 0/100% no-repeat;
+}
+
+.cards .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .slick-dots li {
+  list-style: none;
+  margin-top: 60px;
+}
+
+.cards .slick-dots li:not(:last-child) {
+  margin-right: 42px;
+}
+
+.cards .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cards .slick-dots li.slick-active button {
+  background-color: #ffffff;
 }
 
 .gallery {
