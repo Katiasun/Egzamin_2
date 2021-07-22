@@ -1,0 +1,171 @@
+.latest-news {
+  background: url("../img/latestNews.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 144px;
+}
+.latest-news hr {
+  border: 1px solid #ffffff;
+  background-color: $white;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+.latest-news h1 {
+  color: $white;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.content-card {
+  background: $white;
+  cursor: pointer;
+}
+.content-card:not(:last-child) {
+  margin-right: 30px;
+}
+// .thumbnail img {
+//   width: 370px;
+// }
+//***********************
+// Добавление плюсика поверх картинки
+.thumbnail.caption {
+  width: 100%;
+  height: 100%;
+  // position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  transition: all 0.7s;
+  opacity: 0;
+}
+.thumbnail.caption:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.lupa {
+  background: url("../img/Hover.png") center center no-repeat;
+  // position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+//*************************
+
+.card-title {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+.card-subtitle {
+  color: $grey;
+  font-family: "Gotham", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+// width не соответсвует картинкам которые над этой информацией
+.info-card {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin: 20px 0px 32px 25px;
+}
+.name {
+  margin-left: 21px;
+}
+.author-info {
+  margin-top: 32px;
+  display: flex;
+}
+
+.author-info h4 {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.author-info p {
+  color: $blue;
+  font-family: "Gotham", sans-serif;
+  font-size: 14px;
+  line-height: 13px;
+}
+
+// SLIDER
+.cards {
+  position: relative;
+  padding: 0 115px;
+
+  .slick-track {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .slick-list {
+    overflow: hidden;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  .slick-prev {
+    left: 0;
+    margin-left: 25px;
+    background: url("../img/Direction=Left.png") 0 0/100% no-repeat;
+  }
+  .slick-next {
+    right: 0;
+    margin-right: 25px;
+    background: url("../../img/ArrowRight.png") 0 0/100% no-repeat;
+  }
+
+  // DOTS
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slick-dots li {
+    list-style: none;
+    margin-top: 60px;
+  }
+  .slick-dots li:not(:last-child) {
+    margin-right: 42px;
+  }
+  .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .slick-dots li.slick-active button {
+    background-color: $white;
+  }
+}

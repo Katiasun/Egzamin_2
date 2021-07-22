@@ -1,0 +1,131 @@
+.footer {
+  text-align: center;
+  background: linear-gradient(
+      63.43deg,
+      rgba(85, 183, 255, 0.94) 14.81%,
+      rgba(125, 89, 255, 0.94) 81.48%
+    ),
+    url("../img/BG_SLEDR_3.png") center center no-repeat;
+  background-size: cover;
+
+  padding-top: 201px;
+  padding-bottom: 207px;
+}
+
+.get-in-touch {
+  background: $white;
+  width: 770px;
+  box-shadow: 0px -4px 15px rgba(133, 133, 133, 0.2);
+  padding: 56px 80px 60px 63px;
+  margin: 0 auto;
+
+  z-index: 8;
+}
+.get-in-touch hr {
+  border: 1px solid #2c4058;
+  background-color: $black;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+.get-in-touch h1 {
+  color: $black;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 51px;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(1, auto);
+  grid-column-gap: 50px;
+}
+.firm-information {
+  color: $black;
+  display: grid;
+  grid-template-rows: repeat(4, 40px);
+  grid-row-gap: 29px;
+  text-align: left;
+  justify-self: center; // need it?
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+.firm-information label img {
+  margin-right: 14px;
+}
+
+.your-information {
+  display: grid;
+
+  grid-row-gap: 30px;
+}
+.your-information input {
+  color: $grey;
+  border: none;
+  outline: 1px solid transparent;
+  text-align: left;
+  border-bottom: 1px solid #4b5562;
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 0.5;
+  padding: 16px 0;
+  outline: none;
+}
+.your-information input:focus {
+  color: $black;
+  border-bottom: 1px solid #2c4058;
+  // outline: none;
+}
+.buttom-form {
+  background: $white;
+  width: 140px;
+  margin-top: 28px;
+  cursor: pointer;
+
+  border: 1px solid #2c4058;
+  padding: 20px 41px;
+  font-family: "Gotham", sans-serif;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+
+  transition: background 1s;
+  margin-left: 160px;
+}
+.buttom-form:hover {
+  transition-timing-function: ease-out;
+  background-color: $blue;
+}
+
+.footer-content {
+  display: grid;
+  margin-left: 415px;
+  grid-template-columns: 428px 160px;
+  grid-column-gap: 182px;
+  margin-top: 50px;
+  // justify-items: center;
+}
+.footer-logo {
+  display: grid;
+  grid-row-gap: 40px;
+  text-align: left;
+}
+
+.footer-logo p {
+  color: $white;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-links {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-column-gap: 20px;
+}

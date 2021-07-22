@@ -4,7 +4,359 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://yarnpkg.com/en/package/normalize.css"
+    />
+
     <title>Egzamin_2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 200vh;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="bar">
+          <div class="logo"><img src="img/Logo.png" alt="logo" /></div>
+          <nav class="nav">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="cericle"></div>
+                  About Us</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <div class="cericle"></div>
+                  Projects</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <div class="cericle"></div>
+                  News</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <div class="cericle"></div>
+                  Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><img src="img/facebook.png" alt="facebook"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/twitter.png" alt="twitter"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/insta.png" alt="instagram"
+            /></a>
+          </div>
+        </div>
+        <div class="sliders">
+          <div class="slide slider-1">
+            <div class="slide-content">
+              <h1 class="slogan">Simple & modern</h1>
+              <p class="lead">We make the world's beautiful every day</p>
+            </div>
+          </div>
+          <div class="slide slider-2">
+            <div class="slide-content">
+              <h1 class="slogan">Simple & modern</h1>
+              <p class="lead">We make the world's beautiful every day</p>
+            </div>
+          </div>
+          <div class="slide slider-3">
+            <div class="slide-content">
+              <h1 class="slogan">Simple & modern</h1>
+              <p class="lead">We make the world's beautiful every day</p>
+            </div>
+          </div>
+          <div class="slide slider-4">
+            <div class="slide-content">
+              <h1 class="slogan">Simple & modern</h1>
+              <p class="lead">We make the world's beautiful every day</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="what-we-do">
+        <hr />
+        <h1>what we do</h1>
+        <div class="content-block-1">
+          <div class="blue-block1"></div>
+          <img class="shar" src="img/whatWeDo_1.png" alt="whatWeDo_1" />
+          <div class="text-content-1">
+            <p class="subtitle">One World</p>
+            <h2 class="title">Trade Center</h2>
+            <p class="text-body">
+              Increasing prosperity in our lives can be accomplished <br />
+              by having the right frame of mind. The truth is, our <br />
+              thoughts are very powerful.
+            </p>
+
+            <button class="button">more details</button>
+            <img
+              class="newYork"
+              src="img/Address Line.png"
+              alt="New York City"
+            />
+          </div>
+        </div>
+        <div class="content-block-2">
+          <div class="text-content-2">
+            <p class="subtitle">International</p>
+            <h2 class="title">Commerce Centre</h2>
+            <p class="text-body">
+              Successful businesses have many things in common, <br />
+              today we’ll look at the big ‘R’ of recognition and how a <br />
+              digital advertising network may help.
+            </p>
+
+            <button class="button">more details</button>
+            <img
+              class="Hong"
+              src="img/Address Line_1.png"
+              alt="New York City"
+            />
+          </div>
+          <div class="blue-block2"></div>
+          <img class="build" src="img/build2.png" alt="build" />
+        </div>
+      </div>
+      <div class="latest-news">
+        <hr />
+        <h1>latest news</h1>
+        <div class="cards">
+          <div class="content-card card-1">
+            <div class="thumbnail">
+              <img src="img/Thumbnail.png" alt="build" />
+              <div class="caption">
+                <div class="lupa"></div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3 class="card-title">
+                See The Unmatched <br />
+                Beauty Of The Great.
+              </h3>
+              <p class="card-subtitle">
+                Free directories: directories are <br />
+                perfect for customers that are...
+              </p>
+
+              <div class="author-info">
+                <img src="img/person1-1.png" alt="person" />
+                <div class="name">
+                  <h4>Isaac Dunn</h4>
+                  <p>09 Feb 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card card-2">
+            <div class="thumbnail">
+              <img src="img/Thumbnail1.png" alt="build" />
+              <div class="caption">
+                <div class="lupa"></div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3 class="card-title">
+                Effective Advertising <br />
+                Pointers.
+              </h3>
+              <p class="card-subtitle">
+                Having a home based business is a <br />
+                wonderful asset to your life...
+              </p>
+
+              <div class="author-info">
+                <img src="img/person3-3.png" alt="person" />
+                <div class="name">
+                  <h4>Dominic Freeman</h4>
+                  <p>24 Apr 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card card-3">
+            <div class="thumbnail">
+              <img src="img/Thumbnail2.png" alt="build" />
+              <div class="caption">
+                <div class="lupa"></div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3 class="card-title">
+                Hypnotize Yourself Into <br />
+                The Ghost.
+              </h3>
+              <p class="card-subtitle">
+                There are many things that are <br />
+                important to catalog design....
+              </p>
+
+              <div class="author-info">
+                <img src="img/person2-2.png" alt="person" />
+                <div class="name">
+                  <h4>Alice Ward</h4>
+                  <p>30 Dec 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card card-1">
+            <div class="thumbnail">
+              <img src="img/Thumbnail.png" alt="build" />
+              <div class="caption">
+                <div class="lupa"></div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3 class="card-title">
+                See The Unmatched <br />
+                Beauty Of The Great.
+              </h3>
+              <p class="card-subtitle">
+                Free directories: directories are <br />
+                perfect for customers that are...
+              </p>
+
+              <div class="author-info">
+                <img src="img/person1-1.png" alt="person" />
+                <div class="name">
+                  <h4>Isaac Dunn</h4>
+                  <p>09 Feb 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        <hr />
+        <h1>gallery</h1>
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-6">
+              <div class="big-img">
+                <img src="img/photo3.png" alt="build" />
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="row g-2">
+                <div class="col-12">
+                  <img src="img/Image_1.png" alt="build" />
+                </div>
+                <div class="col-12">
+                  <img src="img/photo1.png" alt="build" />
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="row g-2">
+                <div class="col-12">
+                  <img src="img/Image_3.png" alt="build" />
+                </div>
+                <div class="col-12">
+                  <img src="img/photo2.png" alt="build" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button-gallery">See More</button>
+      </div>
+      <div id="map"></div>
+
+      <footer class="footer">
+        <div class="get-in-touch">
+          <hr />
+          <h1>Get in Touch</h1>
+          <form action="" class="form">
+            <div class="firm-information">
+              <label for=""
+                ><img src="img/time (4).png" alt="geolocation" />91 Nolan
+                Extensions Suite 670
+              </label>
+              <label for=""
+                ><img src="img/time (3).png" alt="telefon" />+001 356-868-2454
+              </label>
+              <label for=""
+                ><img
+                  src="img/time (2).png"
+                  alt="e-mail"
+                />gahuy93@gmail.com</label
+              >
+              <label for=""
+                ><img src="img/time (1).png" alt="time" />From 07:05AM to
+                19:30PM</label
+              >
+            </div>
+
+            <div class="your-information">
+              <input type="tel" placeholder="Mollie Medina" />
+              <input type="email" placeholder="Email" />
+              <buttom class="buttom-form">submit</buttom>
+            </div>
+          </form>
+        </div>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="img/Logo.png" alt="logo" />
+            <p>Copyrights © 2017 Monticello Group | Made with ♡ by Ga Huy</p>
+          </div>
+          <div class="footer-links">
+            <img src="img/facebook.png" alt="facebook" />
+            <img src="img/twitter.png" alt="twitter" />
+            <img src="img/insta.png" alt="instagram" />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbcwi-K0yMcWjh000pFJ0e8IJZqfEsk_M&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
